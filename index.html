@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class = "header">
+       <div class="switches">
+         <div id="toggle-theme" class="toggle-theme">
+
+           <img 
+                 id="toggle-icon" 
+                src="assets/icons/moon.svg" 
+                alt="icon theme"
+                class="toggle-theme_icon"
+                />
+            <p id= "toggle-text" class="toggle-theme_text">Dark Mode</p>
+         </div>
+       </div>
+       <div id="toggle-colors" class="colors">
+         <div data-color="hsl(214, 84%, 56%)" class="colors_item 
+         colors_item--blue"></div>
+
+         <div data-color="hsl(46, 84%, 56%)" class="colors_item 
+         colors_item--orange"></div>
+
+         <div data-color="hsl(276, 84%, 56%)" class="colors_item 
+         colors_item--purple"></div>
+
+         <div data-color="hsl(150, 84%, 56%)" class="colors_item 
+         colors_item--green"></div>
+        
+        </div>
+    </header>
+
+    <main class="main">
+      <section class="column column--left">
+        <!--tarjeta de perfil-->
+        <article class="card card--profile">
+        <div class="card__image-container">
+          <img src= "assets/images/profile.jpg"
+           alt="" />
+
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">MajoTacos
+          </h2>
+          <p class="card__subtitle">developer and friki </p>
+        </div>
+        <div class="car__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:majotacos@gmail.com">majotacos@gmail.com
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="telf: 75361509">+591 75361509 </a>
+        </div>
+        <p class="card__text">
+          Soy estudiante de la universidad autonoma del Beni, de la carrera de
+          ingenieria de sistemas, me gusta bastante programar en HTML.
+        </p>
+         </div>
+        </article>
+        <article class="card card--experience">
+             <h2 class="card title">Experiences</h2>
+              <div class="experience">
+                   <img src="assets/images/logo.png" alt="logo" class="experience_image">
+                   <div class="experience_info">
+                     <p class="experience_time">
+                      Abril 2022 - hoy mismo
+                     </p>
+                     <h3 class="experience_job">Front End Developer</h3>
+                   </div>
+              </div>
+        </article>
+      </section>
+        <div class="section column column--right">
+             <article class="card">
+               <h2 class="card__title">Front end</h2>
+               <small>Nivel de experiencia</small>
+               <div class="skills">
+                 <div class="skills__item">
+                 <p class="skills__tech">HTML</p>
+                 <div class="skills__bar skills__bar--80"></div>
+                </div>
+                <div class="skills__item">
+                  <p class="skills__tech">CSS</p>
+                  <div class="skills__bar skills__bar--90"></div>
+                 </div>
+                 <div class="skills__item">
+                  <p class="skills__tech">JavaScript</p>
+                  <div class="skills__bar skills__bar--60"></div>
+                 </div>
+               </div>
+             </article>
+              <article class="card card--project">
+                   <div class="card__image-container">
+                       <img src="assets/images/project (2).jpg" alt="Landing Page" class="card__image">
+                   </div>
+                   <div class="project">
+                     <div class="projects_tags">
+                       <span class="project_tag">#HTML</span>
+                       <span class="project_tag">#CSS</span>
+                       <span class="project_tag">#JavaScript</span>
+                     </div>
+                     <h2 class="card title">Landing Page</h2>
+                     <p class="card__text"> Aqui pondre mis trabajos</p>
+                     <div class="buttons">
+                      <a href="#" class="button button--primary">Demo</a>
+                      <a href="#" class="button button--ghost">Code</a>
+                     </div>
+                   </div>
+              </article>
+
+
+              <article class="card card--project">
+                <div class="card__image-container">
+                    <img src="assets/images/project (2).jpg" alt="Landing Page" class="card__image">
+                </div>
+                <div class="project">
+                  <div class="projects_tags">
+                    <span class="project_tag">#HTML</span>
+                    <span class="project_tag">#CSS</span>
+                    <span class="project_tag">#JavaScript</span>
+                  </div>
+                  <h2 class="card title">Landing Page</h2>
+                  <p class="card__text"> Aqui pondre mis trabajos</p>
+                  <div class="buttons">
+                   <a href="#" class="button button--primary">Demo</a>
+                   <a href="#" class="button button--ghost">Code</a>
+                  </div>
+                </div>
+           </article>
+
+           <article class="card card--project">
+            <div class="card__image-container">
+                <img src="assets/images/project (2).jpg" alt="Landing Page" class="card__image">
+            </div>
+            <div class="project">
+              <div class="projects_tags">
+                <span class="project_tag">#HTML</span>
+                <span class="project_tag">#CSS</span>
+                <span class="project_tag">#JavaScript</span>
+              </div>
+              <h2 class="card title">Landing Page</h2>
+              <p class="card__text"> Aqui pondre mis trabajos</p>
+              <div class="buttons">
+               <a href="#" class="button button--primary">Demo</a>
+               <a href="#" class="button button--ghost">Code</a>
+              </div>
+            </div>
+       </article>
+
+
+
+
+
+        </div>
+    </main>
+
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
